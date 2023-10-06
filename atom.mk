@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := rng-tools
 LOCAL_DESCRIPTION := rng-tools
-LOCAL_LIBRARIES := openssl gnulib
+LOCAL_LIBRARIES := openssl argp-standalone
 
 LOCAL_EXPORT_LDLIBS = 
 
